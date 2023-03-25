@@ -1,7 +1,7 @@
 const { User } = require("./../models/user.model") 
 
-module.exports.homePage = (req, res) => {
-    res.json("Home Page") 
+module.exports.message = (req, res) => {
+    res.json("Test Message from the Backend") 
 }
 
 // CREATE 
