@@ -12,6 +12,7 @@ app.use(express.json(), express.urlencoded({extended: true}));
 
 // routes
 require("./routes/user.routes")(app) 
+require("./routes/product.routes")(app) 
 
 // listen for the port
 app.listen(8000, () => console.log("The server is all fired up on port 8000")); 
